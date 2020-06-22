@@ -1,0 +1,172 @@
+*{
+	margin:0px;
+	padding: 2px;
+}
+
+main{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+i{
+	font-size: 100px;
+}
+
+hr{
+   background-color: orange;
+}
+
+img{
+	width:35%;
+	height:30%;
+}
+.section-1{
+	width: 20%;
+	border: 2px solid black;
+	text-align: center;
+	font-family: sans-serif;
+	background-color:lightblue;
+	word-wrap: break-word;
+	height: 400px;	
+}
+
+.section-2{
+	width: 74%;
+	border: 2px solid black;
+	background-color: lightblue;
+	word-wrap: break-word;
+	font-family: sans-serif;
+}
+
+.obj{
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.personal{
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+table{
+	border-collapse: collapse;
+	border: 2px solid black;
+	font-family: sans-serif;
+	font-size: 20px;
+	overflow-x: auto;
+}
+
+@media only screen and (max-width: 900px){
+    
+    main{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+	.section-1{
+	width: 24%;
+	position: relative;
+	left: 75%;
+	border: 2px solid black;
+	text-align: center;
+	font-family: sans-serif;
+	background-color: brown;
+	word-wrap: break-word;
+	height: 350px;	
+}
+
+    .section-2{
+	width: 74%;
+	position: relative;
+	right: 25%;
+	border: 2px solid black;
+	background-color: brown;
+	word-wrap: break-word;
+	font-family: sans-serif;
+}
+
+}
+
+@media only screen and (max-width: 780px){
+
+	main{
+	width: 100%;
+	display: block;
+	justify-content: space-around;
+}
+
+	.section-1{
+	width: 98%;
+	border: 2px solid black;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color:red;
+	word-wrap: break-word;
+	height: 350px;	
+	position: relative;
+	left: 0%;
+}
+  
+    .section-2{
+	width: 98%;
+	border: 2px solid black;
+	background-color: red;
+	word-wrap: break-word;
+	font-family: sans-serif;
+	font-size: 20px;
+	position: relative;
+	left: 0%;
+	top: 10px;
+} 
+
+    .table{
+	overflow-x: auto;
+}
+
+} 
+
+@media only screen and (max-width: 480px){
+
+	.section-1{
+	width: 98%;
+	border: 2px solid black;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #D987EE;
+	border-radius: 20px;
+	height: 360px;	
+	position: relative;
+	left: 0%;
+	display: flex;
+}
+   
+    .mobuser{
+    	display: block;
+    	margin: 2px;
+    	padding: 10px;
+    }
+
+    .mobile{
+    	word-wrap: break-word;
+    	display: block;
+    }
+
+    .section-2{
+	width: 98%;
+	border: 2px solid black;
+	border-radius: 30px;
+	background-color:  #D749F1;
+	word-wrap: break-word;
+	font-family: sans-serif;
+	font-size: 20px;
+	position: relative;
+	left: 0%;
+	top: 10px;
+}
+ 
+}
+
+	
